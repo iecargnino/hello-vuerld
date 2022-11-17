@@ -10,6 +10,8 @@
   <ExampleFor />
   <br>
   <ClassBind />
+  <br>
+  <EventsBind />
 </template>
 
 <script lang="ts" setup>
@@ -19,6 +21,7 @@
   import ExampleSelectiveVue from './components/ExampleSelective.vue';
   import ExampleFor from './components/ExampleFor.vue';
   import ClassBind from './components/ClassBind.vue';
+  import EventsBind from './components/EventsBind.vue';
 </script>
 
 <style>

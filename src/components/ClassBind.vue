@@ -1,5 +1,5 @@
 <template>
-    <p v-bind:class="{ danger: hasError }">Mensaje enviado correctamente</p>
+    <p v-bind:class="{ 'danger': hasError }">Mensaje enviado correctamente</p>
 </template>
   
 <script lang="ts">
