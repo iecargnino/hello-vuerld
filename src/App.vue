@@ -12,6 +12,8 @@
   <ClassBind />
   <br>
   <EventsBind />
+  <br>
+  <ModelForm />
 </template>
 
 <script lang="ts" setup>
@@ -22,6 +24,7 @@
   import ExampleFor from './components/ExampleFor.vue';
   import ClassBind from './components/ClassBind.vue';
   import EventsBind from './components/EventsBind.vue';
+  import ModelForm from './components/ModelForm.vue';
 </script>
 
 <style>

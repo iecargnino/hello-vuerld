@@ -1,6 +1,6 @@
 <template>
     <p v-bind:style="{ backgroundColor : '#ccc', color : c }">Mensaje enviado correctamente</p>
-    <button v-on:click="changeColor()"></button>
+    <button v-on:click="changeColor()">CAMBIAR</button>
 </template>
   
 <script lang="ts" setup>
