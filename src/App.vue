@@ -14,6 +14,8 @@
   <EventsBind />
   <br>
   <ModelForm />
+  <br>
+  <CycleOption />
 </template>
 
 <script lang="ts" setup>
@@ -25,6 +27,7 @@
   import ClassBind from './components/ClassBind.vue';
   import EventsBind from './components/EventsBind.vue';
   import ModelForm from './components/ModelForm.vue';
+  import CycleOption from './components/CycleOption.vue';
 </script>
 
 <style>
