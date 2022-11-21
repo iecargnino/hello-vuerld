@@ -16,6 +16,8 @@
   <ModelForm />
   <br>
   <CycleOption />
+  <br>
+  <PostList />
 </template>
 
 <script lang="ts" setup>
@@ -28,6 +30,7 @@
   import EventsBind from './components/EventsBind.vue';
   import ModelForm from './components/ModelForm.vue';
   import CycleOption from './components/CycleOption.vue';
+  import PostList from './components/PostList.vue';
 </script>
 
 <style>
