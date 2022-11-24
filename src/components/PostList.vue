@@ -7,12 +7,12 @@
 <script lang="ts" setup>
     import PostDetail from './PostDetail.vue';
     
-    interface Post {
+    interface IPost {
         title: string,
         content: string
     }
 
-    let info:Array<Post> = [
+    let info:Array<IPost> = [
         {
             title: 'Este es el post 1',
             content: 'Texto ejemplo 1'
