@@ -18,6 +18,8 @@
   <CycleOption />
   <br>
   <PostList />
+  <br>
+  <ComputedComp />
 </template>
 
 <script lang="ts" setup>
@@ -31,6 +33,8 @@
   import ModelForm from './components/ModelForm.vue';
   import CycleOption from './components/CycleOption.vue';
   import PostList from './components/PostList.vue';
+  import ComputedComp from './components/ComputedComp.vue';
+
 </script>
 
 <style>
